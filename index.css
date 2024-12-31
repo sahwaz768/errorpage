@@ -1,0 +1,404 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.master-box {
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  position: absolute;
+  z-index: 1;
+}
+
+.horzontal-img {
+  display: flex;
+  justify-content: center;
+}
+.hr-img1 {
+  width: 230px;
+  height: 300px;
+  flex-shrink: 0;
+}
+.hr-img2 {
+  width: 230px;
+  height: 300px;
+
+  margin-left: 9px;
+}
+.gradient-box {
+  position: absolute;
+  z-index: 2;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 59.98%);
+  height: 100vh;
+  width: 100vw;
+}
+.soon-topbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 350px;
+}
+.lg-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.logo {
+  font-family: "Sacramento", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: white;
+  color: #fe3c71;
+  font-size: 35.5px;
+  border-radius: 22px;
+  padding: 5px 10px;
+}
+.soon-txt {
+  color: #fff;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 50.424px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.soon-txt2 {
+  text-align: center;
+  color: #fff;
+
+  font-family: Manrope;
+  font-size: 50.424px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.soon-txt3 {
+  color: #b42b50;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1194px) {
+  .hr-img1 {
+    width: 220px;
+    height: 300px;
+  }
+  .hr-img2 {
+    width: 220px;
+    height: 300px;
+
+    margin-left: 2px;
+  }
+  .soon-topbox {
+    margin-top: 500px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .hr-img1 {
+    width: 180px;
+    height: 300px;
+  }
+  .hr-img2 {
+    width: 180px;
+    height: 300px;
+
+    margin-left: 2px;
+  }
+}
+@media screen and (max-width: 930px) {
+  .lastimg {
+    display: none;
+  }
+  .hr-img1 {
+    width: 190px;
+    height: 300px;
+  }
+  .hr-img2 {
+    width: 190px;
+    height: 300px;
+
+    margin-left: 2px;
+  }
+}
+@media screen and (max-width: 780px) {
+  .firstimg {
+    display: none;
+  }
+  .hr-img1 {
+    width: 170px;
+    height: 300px;
+  }
+  .hr-img2 {
+    width: 170px;
+    height: 300px;
+
+    margin-left: 2px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .logo {
+    font-size: 25px;
+
+    padding: 5px 5px;
+  }
+  .soon-txt{
+    font-size: 30px;
+  }
+  .soon-txt2{
+    font-size: 30px;
+  }
+  .soon-txt3{
+    font-size: 15px;
+  }
+  
+}
+@media screen and (max-width: 640px) {
+  .logo {
+    font-size: 25px;
+
+    padding: 5px 5px;
+  }
+  .soon-txt{
+    font-size: 30px;
+  }
+  .soon-txt2{
+    font-size: 30px;
+  }
+  .soon-txt3{
+    font-size: 15px;
+  }
+  
+}
+@media screen and (max-width: 530px) {
+  .master-box{
+    padding-left: 4px;
+  }
+  .secondimg{
+    display: none;
+  }
+  
+  .hr-img1 {
+    width: 200px;
+    height: 300px;
+  }
+  .hr-img2 {
+    width: 200px;
+    height: 300px;
+
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 405px) {
+  .master-box{
+    padding-left: 4px;
+  }
+  .hr-img1 {
+    width: 170px;
+    height: 300px;
+  }
+  .hr-img2 {
+    width: 170px;
+    height: 300px;
+  }
+  .soon-txt{
+    font-size: 23px;
+  }
+  .soon-txt2{
+    font-size: 23px;
+  }
+  .soon-txt3{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .master-box{
+    padding-left: 10px;
+  }
+  .fourthimg{
+    margin-left: 5px;
+  }
+  
+}
+@media screen and (max-width: 380px) {
+  .master-box{
+    padding-left: 8px;
+  }
+  .fourthimg{
+    margin-left: 2px;
+  }
+  
+}
+
+/* 404 error */
+
+
+.body-div {
+  min-height: 100vh;
+  background-color: #fdf2f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 28rem;
+  width: 100%;
+  text-align: center;
+}
+
+.error-number {
+  font-size: 9rem;
+  font-weight: bold;
+  color: #db2777;
+  animation: pulse 2s infinite;
+}
+
+.error-title {
+  font-size: 1.875rem;
+  font-weight: 600;
+  color: #9d174d;
+  margin: 1rem 0;
+}
+
+.error-message {
+  color: #be185d;
+  margin-bottom: 2rem;
+}
+
+.divider {
+  width: 6rem;
+  height: 0.25rem;
+  background-color: #f9a8d4;
+  border-radius: 9999px;
+  margin: 2rem auto;
+}
+
+.back-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  color: #be185d;
+  background-color: #fce7f3;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-size: 1rem;
+}
+
+.back-button:hover {
+  background-color: #fbcfe8;
+}
+
+.support-text {
+  font-size: 0.875rem;
+  color: #db2777;
+  margin-top: 2rem;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+/* unexpected error */
+
+.bodysecond {
+  font-family: Arial, sans-serif;
+  background-color: #fdf2f8;
+  min-height: 100vh;
+}
+
+.error-containerx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.error-contentx {
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(219, 39, 119, 0.1);
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.error-iconx {
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.h1 {
+  color: #be185d;
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.h2 {
+  color: #9d174d;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.error-messagex {
+  color: #831843;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.error-codex {
+  color: #be185d;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.button-groupx {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.refresh-btnx {
+  background-color: #ec4899;
+  color: white;
+}
+
+.refresh-btnx:hover {
+  background-color: #db2777;
+}
+
+.home-btnx{
+  background-color: #fce7f3;
+  color: #be185d;
+}
+
+.home-btnx:hover {
+  background-color: #fbcfe8;
+}
+
+.support-textx {
+  color: #be185d;
+  font-size: 14px;
+}
