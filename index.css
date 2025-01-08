@@ -16,13 +16,15 @@
   justify-content: center;
 }
 .hr-img1 {
-  width: 230px;
-  height: 300px;
+  
+  width: 296px;
+  height: 381px;
   flex-shrink: 0;
 }
 .hr-img2 {
-  width: 230px;
-  height: 300px;
+  
+  width: 290px;
+  height: 381px;
 
   margin-left: 9px;
 }
@@ -30,7 +32,7 @@
   position: absolute;
   z-index: 2;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 59.98%);
-  height: 100vh;
+  height: 120vh;
   width: 100vw;
 }
 .soon-topbox {
@@ -85,7 +87,7 @@
 .company-logo{
   display: flex;
   justify-content: center;
-  margin-top: 300px;
+  margin-top: 425px;
 }
 .company-logo img{
  width: 320px;
@@ -93,22 +95,102 @@
   
 }
 
-@media screen and (max-width: 1194px) {
+@media screen and (max-width: 1510px) {
+  .hr-img1 {
+    width: 270px;
+    height: 381px;
+  
+    margin-left: 9px;
+  }
+  .hr-img2 {
+    width: 270px;
+    height: 381px;
+  
+    margin-left: 9px;
+  }
+ 
+}
+
+@media screen and (max-width: 1416px) {
+  .hr-img1 {
+    width: 250px;
+    height: 381px;
+  
+    margin-left: 9px;
+  }
+  .hr-img2 {
+    width: 250px;
+    height: 381px;
+  
+    margin-left: 9px;
+  }
+ 
+}
+@media screen and (max-width: 1316px) {
+  .hr-img1 {
+    width: 230px;
+    height: 340px;
+  
+    margin-left: 9px;
+  }
+  .hr-img2 {
+    width: 230px;
+    height: 340px;
+  
+    margin-left: 9px;
+  }
+ 
+}
+@media screen and (max-width: 1216px) {
   .hr-img1 {
     width: 220px;
-    height: 300px;
+    height: 320px;
+  
+    margin-left: 9px;
   }
   .hr-img2 {
     width: 220px;
-    height: 300px;
-
-    margin-left: 2px;
+    height: 320px;
+  
+    margin-left: 12px;
   }
-  .company-logo {
-    margin-top: 450px;
-  }
+ 
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1175px) {
+  .hr-img1 {
+    width: 200px;
+    height: 320px;
+  
+    margin-left: 9px;
+  }
+  .hr-img2 {
+    width: 200px;
+    height: 320px;
+  
+    margin-left: 12px;
+  }
+ 
+}
+
+
+
+@media screen and (max-width: 1116px) {
+  .hr-img1 {
+    width: 190px;
+    height: 300px;
+  
+    margin-left: 9px;
+  }
+  .hr-img2 {
+    width: 190px;
+    height: 300px;
+  
+    margin-left: 6px;
+  }
+ 
+}
+
+@media screen and (max-width: 1016px) {
   .hr-img1 {
     width: 180px;
     height: 300px;
